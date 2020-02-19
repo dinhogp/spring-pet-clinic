@@ -45,4 +45,8 @@
 		</plugins>
 	</build>
 
+	<scm>
+		<developerConnection>scm:git:git@github.com:dinhogp/spring-pet-clinic.git</developerConnection>
+	</scm>
+
 </project>
