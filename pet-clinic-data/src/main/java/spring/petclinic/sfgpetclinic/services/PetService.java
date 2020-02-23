@@ -1,8 +1,7 @@
 package spring.petclinic.sfgpetclinic.services;
 
-public interface PetService{
+import spring.petclinic.sfgpetclinic.model.Pet;
 
-    Pet findById(Long id);
-    Pet save(Pet pet);
-    Set<Pet> findAll();
+public interface PetService extends CrudService<Pet, Long>{
+
 }
